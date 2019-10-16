@@ -18,7 +18,7 @@ angular.module('myFirstApp', [])
   function checkList(string) {
     var myresult = "";
     var mylist = string.split(',');
-    var listcount = 0;
+    var listcount = mylist.length;
 
     // debug
     console.log('List: '+mylist);
